@@ -34,7 +34,6 @@ function App() {
       duration: 4,
       scrollTrigger: {
         trigger: "#h2",
-        // toggleActions: "play complete reverse reset",
       },
     });
     gsap.to("#image", {
@@ -56,7 +55,7 @@ function App() {
       },
     });
     gsap.to("#left", {
-      x: 40,
+      x: 20,
       opacity: 0.9,
       duration: 3,
       scrollTrigger: {
