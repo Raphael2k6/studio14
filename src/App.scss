@@ -1,0 +1,441 @@
+.container {
+  padding-top: 3.5rem;
+  .container-content {
+    .container-content_items {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      .text {
+        margin-top: 3rem;
+        width: 32rem;
+        h2 {
+          font-style: normal;
+          font-weight: 700;
+          font-size: 3rem;
+          line-height: 53px;
+          letter-spacing: -0.01em;
+          color: #232c35;
+          width: 91%;
+        }
+        p {
+          font-style: normal;
+          font-weight: 500;
+          font-size: 20px;
+          line-height: 114.5%;
+          letter-spacing: -0.01em;
+          color: #4f4f4f;
+        }
+      }
+      .img {
+        img {
+          width: 36.1rem;
+          padding-bottom: 20px;
+        }
+      }
+    }
+  }
+  .purple-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 69.375rem;
+    background: #5c1a8d;
+    .text {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      div {
+        padding-top: 6.25rem;
+        width: 38.375rem;
+        h3 {
+          font-style: normal;
+          font-weight: 700;
+          font-size: 36px;
+          line-height: 112.5%;
+          text-align: center;
+          letter-spacing: -0.01em;
+          color: #ffffff;
+        }
+
+        p {
+          font-style: normal;
+          font-weight: 500;
+          font-size: 20px;
+          line-height: 114.5%;
+          text-align: center;
+          letter-spacing: -0.01em;
+          color: #e0e0e0;
+          width: 60%;
+          margin: 0rem 8rem;
+        }
+      }
+    }
+    .app-features {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0% 20%;
+      color: #fff;
+      .step1,
+      .step2,
+      .step3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 1rem;
+        h5 {
+          font-style: normal;
+          font-weight: 700;
+          font-size: 24px;
+          line-height: 112.5%;
+          letter-spacing: -0.01em;
+          color: #ffffff;
+          margin: 0.3rem 0rem;
+        }
+        p {
+          font-style: normal;
+          font-weight: 500;
+          font-size: 17.3px;
+          line-height: 114.5%;
+          letter-spacing: -0.01em;
+          color: #f7f7f7;
+        }
+        svg {
+          margin-right: 2rem;
+        }
+      }
+    }
+  }
+  .why-whichRide {
+    position: relative;
+    display: flex;
+    min-height: 57.063rem;
+    .header {
+      position: absolute;
+      left: 43%;
+      top: 10%;
+      h1 {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 112.5%;
+        letter-spacing: -0.01em;
+        color: #232c35;
+      }
+    }
+    .column {
+      flex: 2 0 48%;
+      padding: 0;
+      .left {
+        min-height: 57.063rem;
+        background: rgba(167, 146, 254, 0.07);
+        .left-content {
+          padding: 12rem 5.6rem 0rem 38%;
+          svg {
+            padding-bottom: 1rem;
+          }
+          span {
+            font-style: normal;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 112.5%;
+            letter-spacing: -0.01em;
+            color: #232c35;
+            padding-bottom: 10px;
+          }
+          p {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 120%;
+            letter-spacing: -0.01em;
+            color: #4f4f4f;
+            padding-bottom: 3rem;
+          }
+        }
+      }
+      .right {
+        padding: 12rem 30% 0rem 6rem;
+        svg {
+          padding-bottom: 1rem;
+        }
+        span {
+          font-style: normal;
+          font-weight: 700;
+          font-size: 20px;
+          line-height: 112.5%;
+          letter-spacing: -0.01em;
+          color: #232c35;
+          padding-bottom: 10px;
+        }
+        p {
+          font-style: normal;
+          font-weight: 500;
+          font-size: 18px;
+          line-height: 120%;
+          letter-spacing: -0.01em;
+          color: #4f4f4f;
+          padding-bottom: 3rem;
+        }
+      }
+    }
+  }
+  .footer-top {
+    display: flex;
+    justify-content: center;
+    height: 370px;
+    padding-top: 3rem;
+    background: #f2c94c;
+    .text {
+      width: 60%;
+      text-align: center;
+      margin-left: 20%;
+      h1 {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 114.5%;
+        letter-spacing: -0.01em;
+        color: #232c35;
+        text-align: center;
+      }
+      p {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 114.5%;
+        text-align: center;
+        letter-spacing: -0.01em;
+        color: #233533;
+        padding-bottom: 2.5rem;
+      }
+    }
+    .email-input {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      input {
+        width: 342px;
+        height: 48px;
+        border: 2px solid #ffffff;
+        background: #f2c94c;
+        margin-right: 14px;
+      }
+      input::placeholder {
+        color: #ffffff;
+        text-indent: 2rem;
+        font-size: 16px;
+      }
+      button {
+        width: 157px;
+        height: 48px;
+        background: #2c3539;
+        color: #ffffff;
+      }
+    }
+  }
+  footer {
+    background: #deb63d;
+    padding: 15px 139px 20px;
+    color: #ffffff;
+    .content {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .container {
+    .purple-section {
+      .app-features {
+        margin: 0% 12%;
+      }
+    }
+    .why-whichRide {
+      .header {
+        left: 41%;
+      }
+    }
+  }
+}
+@media screen and (max-width: 1250px) {
+  .container {
+    .container-content {
+      .container-content_items {
+        .text {
+          width: 25rem;
+        }
+        .img {
+          img {
+            width: 30rem;
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 1024px) {
+  .container {
+    .container-content {
+      .container-content_items {
+        .text {
+          width: 25rem;
+          margin-top: 0rem;
+          h2 {
+            font-size: 2rem;
+            line-height: 35px;
+            margin-bottom: -0.3rem;
+          }
+          p {
+            font-size: 18px;
+          }
+        }
+        .img {
+          img {
+            width: 23rem;
+          }
+        }
+      }
+    }
+    .purple-section {
+      .app-features {
+        margin: 0% 5%;
+        img {
+          width: 450px;
+        }
+      }
+    }
+    .why-whichRide {
+      .header {
+        left: 37%;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    .container-content {
+      .container-content_items {
+        .text {
+          width: 15rem;
+        }
+      }
+    }
+    .purple-section {
+      .text {
+        div {
+          margin-top: -10rem;
+          p {
+            margin-bottom: 3rem;
+          }
+        }
+      }
+      .app-features {
+        margin: 0% 5%;
+        img {
+          width: 300px;
+        }
+      }
+    }
+    .why-whichRide {
+      .header {
+        left: 33%;
+      }
+      .column {
+        .left {
+          .left-content {
+            padding: 12rem 5.6rem 0rem 23%;
+          }
+        }
+        .right {
+          padding: 12rem 23% 0rem 5rem;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .container {
+    padding-top: 1.5rem;
+    .container-content {
+      .container-content_items {
+        .text {
+          width: 100%;
+          text-align: center;
+        }
+        .img {
+          img {
+            width: 15rem;
+          }
+        }
+      }
+    }
+    .purple-section {
+      .text {
+        div {
+          margin-top: -5rem;
+          width: 100%;
+          p {
+            margin: 0rem 1rem;
+            width: 90%;
+          }
+          h3 {
+            font-size: 29px;
+          }
+        }
+      }
+      .app-features {
+        margin: 0% 5%;
+        flex-wrap: wrap;
+        img {
+          width: 300px;
+        }
+      }
+    }
+    .why-whichRide {
+      .header {
+        left: 18%;
+      }
+      .column {
+        .left {
+          .left-content {
+            padding: 12rem 0rem 0rem 10%;
+          }
+        }
+        .right {
+          padding: 12rem 0% 0rem 1rem;
+        }
+      }
+    }
+    .footer-top {
+      height: 33rem;
+      .email-input {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        input {
+          width: 100%;
+          margin-right: 0;
+          margin-bottom: 1rem;
+        }
+        button {
+          width: 103%;
+        }
+      }
+    }
+    footer {
+      padding: 15px 20px 0px;
+      .content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+      }
+    }
+  }
+}

@@ -1,0 +1,32 @@
+.navContainer {
+    display: flex;
+    justify-content: space-between;
+    margin: 0% 10%;
+    .navItems{
+        ul {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            li {
+                list-style: none;
+            }
+        }
+    } 
+}
+
+@media screen and (max-width: 767px) {
+    .navContainer {
+    margin: 0%;
+    svg {
+        width: 165px;
+    }
+    .navItems{
+        ul {
+            width: 75%;
+            li {
+                font-size: 12px;
+            }
+        }
+    } 
+    }
+}
